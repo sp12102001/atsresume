@@ -1,9 +1,9 @@
 import Head from "next/head";
 
 export default function Meta({ title, keywords, description }) {
-    const homepage = "https://atsresume.vercel.app/";
-    const logo = "https://atsresume.vercel.app/assets/logo.png";
-    const fevicon = "https://atsresume.vercel.app/assets/favicon.ico";
+    const homepage = "https://atsresume-five.vercel.app/";
+    const logo = "https://atsresume-five.vercel.app/assets/logo.png";
+    const fevicon = "https://atsresume-five.vercel.app/assets/favicon.ico";
 
     function isiteJsonLd() {
         return {
@@ -14,25 +14,25 @@ export default function Meta({ title, keywords, description }) {
                 "logo": ${logo},
                 "contactPoint": {
                     "@type": "ContactPoint",
-                    "telephone": "+91 9999999999",
+                    "telephone": "+65 888888888",
                     "contactType": "customer service"
                 },
                 "image": ${logo},
                 "description": ${description},
-                "founder": "Saurav Hathi",
+                "founder": "S",
                 "foundingDate": "2023",
                 "foundingLocation": "IN",
                 "email": "xyz@gmail.com",
                 "telephone": "+91 9999999999",
-                "areaServed": "IN",
+                "areaServed": "SG",
                 "keywords": ${keywords},
                 "mainEntityOfPage": ${homepage},
                 "knowsAbout": ${keywords},
                 "knowsLanguage": "English",
-                "memberOf": "Saurav Hathi",
-                "owns": "Saurav Hathi",
+                "memberOf": "S",
+                "owns": "S",
                 "publishingPrinciples": ${homepage},
-                "slogan": "Get hired with an ATS-optimized resume"
+                "slogan": "ATS-optimized resumes made easier"
             }`
         }
     }
